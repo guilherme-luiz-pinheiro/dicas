@@ -1,0 +1,8 @@
+- **add:** `add: adiciona sistema de autenticação`  
+- **update:** `update: atualiza layout da página inicial`  
+- **delete:** `delete: remove código obsoleto do módulo X`  
+- **fix:** `fix: corrige bug na validação do formulário`  
+- **docs:** `docs: adiciona documentação da API`  
+- **refactor:** `refactor: melhora estrutura do componente usuário`  
+- **test:** `test: adiciona testes unitários para a função Y`  
+- **chore:** `chore: atualiza dependências do projeto`  

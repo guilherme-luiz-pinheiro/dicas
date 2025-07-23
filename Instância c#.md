@@ -1,7 +1,7 @@
 
-# Exemplos de InstanciaÃ§Ã£o de Tipos em C#
+# Exemplos de Instâncias de Tipos em C#
 
-## ðŸ”¹ Tipos Primitivos
+## Tipos Primitivos
 
 ```csharp
 int numero = 10;
@@ -14,7 +14,7 @@ string texto = "OlÃ¡, mundo!";
 
 ---
 
-## ðŸ”¹ Arrays
+## Arrays
 
 ```csharp
 int[] numeros = new int[] { 1, 2, 3 };
@@ -23,7 +23,7 @@ string[] nomes = { "Ana", "JoÃ£o", "Carlos" };
 
 ---
 
-## ðŸ”¹ Listas (List<T>)
+## Listas (List<T>)
 
 ```csharp
 using System.Collections.Generic;
@@ -35,7 +35,7 @@ listaNomes.Add("Maria");
 
 ---
 
-## ðŸ”¹ DicionÃ¡rios (Dictionary<TKey, TValue>)
+## Dicionários (Dictionary<TKey, TValue>)
 
 ```csharp
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ idadePorNome["Ana"] = 25;
 
 ---
 
-## ðŸ”¹ Objetos (Classes personalizadas)
+## Objetos (Classes personalizadas)
 
 ```csharp
 class Pessoa {
@@ -62,7 +62,7 @@ p.Idade = 30;
 
 ---
 
-## ðŸ”¹ Structs
+## Structs
 
 ```csharp
 struct Ponto {
@@ -74,7 +74,7 @@ Ponto ponto = new Ponto { X = 10, Y = 20 };
 
 ---
 
-## ðŸ”¹ Enums
+## Enums
 
 ```csharp
 enum Cor { Vermelho, Verde, Azul }
@@ -84,7 +84,7 @@ Cor corFavorita = Cor.Verde;
 
 ---
 
-## ðŸ”¹ Tuplas
+## Tuplas
 
 ```csharp
 var tupla = (Nome: "Carlos", Idade: 28);
@@ -93,7 +93,7 @@ Console.WriteLine(tupla.Nome);  // Carlos
 
 ---
 
-## ðŸ”¹ Nullable Types
+## Nullable Types
 
 ```csharp
 int? idade = null;
